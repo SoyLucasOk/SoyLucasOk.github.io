@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background: rgb(0, 2, 17);
+  background: linear-gradient(-45deg, rgba(21, 219, 167, 1) 10%, rgb(3, 7, 39) 10%, rgba(0, 2, 17, 1) 90%, rgba(21, 219, 167, 1) 90%);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#app {
+  /* width: 100%; */
+  /* height: 100%; */
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 200px;
+  border-radius: 100%;
+}
