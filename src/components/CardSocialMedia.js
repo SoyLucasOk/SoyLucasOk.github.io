@@ -31,6 +31,7 @@ class CardSocialMedia extends window.HTMLElement {
         color: black;
         font-size: .8em;
         font-weight: 700;
+        user-select: none;
       }
 
       img {
