@@ -5,7 +5,7 @@ function $(elemenet) {
   return document.getElementById(elemenet)
 }
 
-const app = $('app')
+const socialNetworkContainer = $('social-network')
 
 // app.innerHTML = '<dp-card-social-media></dp-card-social-media>'
 
@@ -14,5 +14,5 @@ LINKS.forEach(({ socialNetwork, url, icon }) => {
   card.setAttribute('socialNetwork', socialNetwork)
   card.setAttribute('url', url)
   card.setAttribute('icon', icon)
-  app.appendChild(card)
+  socialNetworkContainer.appendChild(card)
 })

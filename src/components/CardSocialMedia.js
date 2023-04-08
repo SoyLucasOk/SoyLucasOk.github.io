@@ -17,14 +17,11 @@ class CardSocialMedia extends window.HTMLElement {
       :host {}
       .card {
         background-color: transparent;
-        width: 90px;
-        height: 90px;
+        width: 40px;
+        height: 44px;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        margin: 5px 10px;
-        border-radius: 5px;
         user-select: none;
         position: relative;
         text-decoration: none;
@@ -52,7 +49,7 @@ class CardSocialMedia extends window.HTMLElement {
         padding: 5px 5px;
         border-radius: 5px;
         transition: all .15s;
-        display: flex; 
+        display: flex;
         justify-content: center;
       }
 
@@ -63,7 +60,7 @@ class CardSocialMedia extends window.HTMLElement {
         position: absolute;
         top: -5px;
         border-left: 10px solid transparent;
-        border-bottom: 5px solid #c9c9c9;
+        border-bottom: 10px solid #c9c9c9;
         border-right: 10px solid transparent;
       }
 
@@ -79,7 +76,7 @@ class CardSocialMedia extends window.HTMLElement {
 
       .card:hover > span {
         opacity: 1;
-        bottom: -40px;
+        bottom: -25px;
       }
       
     `
