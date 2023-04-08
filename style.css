@@ -88,23 +88,19 @@ body {
   margin-top: 20px;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: .5em;
-  font-size: .85em;
-  color: #dcdcdc;
-  font-family: 'HelveticaNeueCyr-Black';
-}
-
-h2 {
-  text-align: center;
-  font-size: 1.3em;
-}
-
-.photo {
-  width: 300px;
-  height: 350px;
+.profile-photo {
+  width: 150px;
+  border-radius: 15%;
   object-fit: cover;
-  mask-image: none;
-  -webkit-mask-image: linear-gradient(black 50%, transparent 95%);
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 200px;
+  border-radius: 100%;
 }

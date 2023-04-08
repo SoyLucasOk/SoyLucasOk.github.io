@@ -17,8 +17,8 @@ class CardSocialMedia extends window.HTMLElement {
       :host {}
       .card {
         background-color: transparent;
-        width: 40px;
-        height: 44px;
+        width: 90px;
+        height: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -28,6 +28,7 @@ class CardSocialMedia extends window.HTMLElement {
         color: black;
         font-size: .8em;
         font-weight: 700;
+        user-select: none;
       }
 
       img {
