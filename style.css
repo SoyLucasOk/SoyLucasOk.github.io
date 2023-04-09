@@ -149,6 +149,7 @@ h2 {
 .a-spirit-of-live-logo {
   width: 250px;
   position: relative;
+  margin-top: 10px;
 }
 
 .a-spirit-of-live-logo img {
@@ -163,7 +164,7 @@ h2 {
 .a-spirit-of-live-logo .blur {
   filter: blur(5px);
   animation: flicker 3s infinite;
-  top: 0;
+  top: -10px;
   left: 0;
 }
 
